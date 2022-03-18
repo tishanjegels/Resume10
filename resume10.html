@@ -22,7 +22,7 @@
 <!--Header-->
   <header id="heading">
      <div id="navbar" >  
-       <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark bg-gradient">
+       <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark bg-gradient">
      <ul class="navbar-nav">
        <li class="nav-item">
          <a class="nav-link" aria-current="page" href="#heading">About</a>
@@ -48,8 +48,8 @@
 
     <img src="images/tishan.jpg" alt="This is a picture of Tishan Jegels" width="150px" />
      <h1 style="color: cornflowerblue">Tishan Jegels</h1>
-     <p> I'm currently a facilitator at Click Foundation. I love learning more and improving my skills.</p>
-     <p>I am a sports lover and enjoy showing kids why I love the sports through coaching.
+     <p style="color: white;"> I'm currently a facilitator at Click Foundation. I love learning more and improving my skills.</p>
+     <p style="color: white;">I am a sports lover and enjoy showing kids why I love the sports through coaching.
       I'm very passionate about making a difference in someone else's life.
      </p>
 
@@ -73,8 +73,12 @@
         <h2 id="education">
           <mark>Education</mark>
         </h2>
-  
-        <h3 >Schooling Career</h3>
+        
+        <br>
+        
+        <h3 style="color: white;">Schooling Career</h3>
+
+        <br>
   
         <p style="color: beige;"> I stared my schooling in the Free State and ended it in the Easter Cape in 2019 : </p>
   
@@ -94,31 +98,38 @@
         <h2 id="experience"> 
           <mark>Experience</mark> 
         </h2>
-  
-        <h3>Job 1</h3>
-        <p style="color: beige;">
-          Facilitator at
-          <a href="https://clickfoundation.co.za" target="_blank">Click Foundation
-          </a>
-          since 2021. Currently working at Good Shepherd Primary School in the
-          Easter Cape
-        </p>
-  
-        <h3 style="color:brown;">Job 2</h3>
-  
-        <p style="color: beige;">
-          Completed a course on how to use HTML and CSS to create web pages
-          at
-          <a href="https://www.codespace.co.za/" target="_blank">CodeSpace Academy</a>
-          called Intro to Web. Currently doing a Web Design course now.
-        </p>
-  
+         
+        <br>
+
+        <div class="row">
+          <div class="col-sm-6">
+            <div class="card" style="background-color: transparent;border:  black solid 5px;">
+              <div class="card-body">
+                <h3 class="card-title">Job 1 : Click Foundation</h3>
+                <p class="card-text">Currently working at Good Shepherd Primary School in the
+                  Easter Cape since 2021. </p>
+                <a href="https://clickfoundation.co.za" target="_blank" class="card-link">Click Foundation</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6">
+            <div class="card" style="border: solid black 5px; background-color: transparent;">
+              <div class="card-body">
+                <h3 class="card-title">Job 2 : CodeSpace</h3>
+                <p class="card-text">Completed a course on how to use HTML and CSS to creat a web page and I'm currently doing a Web Design course</p>
+                <a href="https://www.codespace.co..za" target="_blank" class="card-link">CodeSpace</a>
+              </div>
+            </div> 
+          </div>
+        </div>
+
         <hr />
+
     <!--Skills-->
         <h2 id="skills" >
           <mark>Skills</mark>
         </h2>
-  
+  <br>
         <ul style="color: beige;">
           <li>Hardworking</li>
           <li>Creative</li>
@@ -171,9 +182,42 @@
 
     </div>
     </div>
+
+    <br>
+    <br>
+
+    <h2 id="personalopinion">
+      <mark>Personal Opinion</mark>
+    </h2>
+<br>
+
+    <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Resume Opinion
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Opinion about Resume</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+      Was my resume readable?
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary">Yes</button>
+        <button type="button" class="btn btn-primary">No</button>
+      </div>
+    </div>
+  </div>
+</div>
   </main>
 
-  <footer>
+
+    <footer>
 
     <div class="containers" >
     <div class="col">
