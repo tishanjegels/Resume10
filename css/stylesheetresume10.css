@@ -103,4 +103,21 @@ a:visited{
 }
 
 
+ /* The animation code */
+@keyframes MyInstagram {
+  
+  0% {transform: rotate(90deg);}
+  25% {transform: scale(2);}
+  50% {transform: rotate(90deg);}
+  100% {transform: scale(2);}
+}
 
+/* The element to apply the animation to */
+.icons {
+  width: 100px;
+  height: 100px;
+  animation-name: MyInstagram ;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  filter: contrast(80%); 
+}
