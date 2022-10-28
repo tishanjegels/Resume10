@@ -13,6 +13,11 @@
   <!--Normal CSS-->
   <link rel="stylesheet" type="text/css" href="css/stylesheetresume10.css" />
 
+  <!--Font-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+
   <title>Tishan's Digital Resume</title>
 </head>
 
@@ -57,7 +62,8 @@
 
     <img src="images/tishan.jpg" alt="This is a picture of Tishan Jegels" width="150px" />
     <h1>Tishan Jegels</h1>
-    <p> I'm currently a facilitator at Click Foundation. I love learning more and improving my skills.</p>
+    <p> I'm currently a facilitator for The Click Foundation at Good Shepherd Primary School. I love learning more and
+      improving my skills.</p>
     <p>I am a sports lover and enjoy showing kids why I love the sports through coaching.
       I'm very passionate about making a difference in someone else's life.
     </p>
@@ -69,7 +75,6 @@
     <picture>
       <source media="(max-width:650px)" srcset="images\rose gold marbel.jpg">
       <source media="(max-width:1000px )" srcset="images\clouds.jpg">
-      <img src="images/Snapchat-2035010136.jpg" alt="Picture of Tishan Jegels">
     </picture>
   </div>
 
@@ -87,19 +92,37 @@
 
             <br>
 
-            <h3 style="color: white;">Schooling Career</h3>
+            <h3>Schooling Career</h3>
 
             <br>
 
             <p> I stared my schooling in the Free State and ended it in the Eastern Cape in 2019 : </p>
 
-            <ul style="color:darkblue;">
-              <li>President Brand Primêre Skool - Bloemfontein : Gr.R (2007) </li>
-              <li>Dr. Viljoen Primêre Skool - Port Elizabeth : Gr.1-3 (2008-2010)</li>
-              <li>President Brand Primêre Skool - Bloemfontein : Gr.4-5 (2011-2012)</li>
-              <li>Fichardtpark Primêre Skool - Bloemfontein : Gr5-7 (2012-2014)</li>
-              <li>Hoërskool Fichardtpark - Bloemfontein : Gr8 (2015)</li>
-              <li>Victoria Girls' High School - Grahamstown : Gr.9-12 (2016-2019)</li>
+            <ul>
+              <li>
+                <a href="https://presidentbrand.wordpress.com/" target="_blank" class="pbs">President Brand
+                  Primêre Skool</a> - Bloemfontein : Gr.R (2007)
+              </li>
+              <li>
+                Dr. Viljoen Primêre Skool - Port Elizabeth : Gr.1-3 (2008-2010)
+              </li>
+              <li>
+                <a href="https://presidentbrand.wordpress.com/" target="_blank" class="pbs">President Brand
+                  Primêre Skool</a> - Bloemfontein : Gr.4-5 (2011-2012)
+              </li>
+              <li>
+                <a href="http://www.fichies.co.za/" target="_blank" class="fhp">Fichardtpark
+                  Primêre Skool</a> - Bloemfontein : Gr5-7 (2012-2014)
+              </li>
+              <li>
+                <a href="https://fpark.co.za/" target="_blank" class="fhp">Hoërskool Fichardtpark</a> - Bloemfontein
+                : Gr8 (2015)
+              </li>
+              <li>
+                <a href="https://vghs.co.za/" target="_blank" class="fhp">Victoria Girls' High School</a> -
+                Grahamstown : Gr.9-12
+                (2016-2019)
+              </li>
 
             </ul>
 
@@ -112,23 +135,24 @@
 
             <br>
 
-            <div class="row" style="color: lawngreen;">
+            <div class="row">
               <div class="col-sm-6">
-                <div class="card" style="background-color: white ;border:  black solid 5px;">
+                <div class="card" id="job1">
                   <div class="card-body">
                     <h3 class="card-title">Job 1 : Click Foundation</h3>
                     <p class="card-text">Currently working at Good Shepherd Primary School in the
-                      Easter Cape since 2021. </p>
+                      Eastern Cape since 2021. </p>
                     <a href="https://clickfoundation.co.za" target="_blank" class="card-link">Click Foundation</a>
                   </div>
                 </div>
               </div>
               <div class="col-sm-6">
-                <div class="card" style="border: solid black 5px; background-color: white;">
+                <div class="card" id="job2">
                   <div class="card-body">
                     <h3 class="card-title">Job 2 : CodeSpace</h3>
-                    <p class="card-text">Completed a course on how to use HTML and CSS to creat a web page and I'm
-                      currently doing a Web Design course</p>
+                    <p class="card-text">Completed the following course: Intro to Web , Web Design, Frontend Framework,
+                      Interactive Web Apps, Backend Programming. Still busy with Data Driven Apps , Databases And
+                      RealTime Apps</p>
                     <a href="https://www.codespace.co.za" target="_blank" class="card-link">CodeSpace</a>
                   </div>
                 </div>
@@ -142,7 +166,7 @@
               <mark>Skills</mark>
             </h2>
             <br>
-            <ul style="color: #ff2281">
+            <ul>
               <li>Hardworking</li>
               <li>Creative</li>
               <li>Problem solving</li>
@@ -158,37 +182,63 @@
             </h2>
             <div id="carouselCaptions" class="carousel slide" data-bs-ride="carousel">
               <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" class="active"
-                  aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1"
-                  aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2"
-                  aria-label="Slide 3"></button>
+
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="0" aria-label="Slide 1">
+                </button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="1" aria-label="Slide 2">
+                </button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="2" aria-label="Slide 3"
+                  class="active" aria-current="true">
+                </button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="3" aria-label="Slide 4">
+                </button>
+                <button type="button" data-bs-target="#carouselCaptions" data-bs-slide-to="4" aria-label="Slide 5">
+                </button>
               </div>
+
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img src="images/hockey.jpg" class="d-block w-100" alt="Hockey">
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Hockey</h5>
-                    <p style="background-color: black;">I support the Netherlands and they are currently ranked 1st in
-                      the world. I am a hockey</p>
+                    <p style="background-color: black;">I support the Netherlands (Men & Women).
+                      They are currently ranked 1st the world. I am also a hockey player</p>
                   </div>
                 </div>
+
                 <div class="carousel-item">
-                  <img src="images/rugby.jpg" class="d-block w-100" alt="Rugby">
+                  <img src="images/rugby.jpg" class="d-block w-100" alt="SpingbokRugby">
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Rugby</h5>
-                    <p style="background-color: black;">I'm a Springbok and Blitzbok supporter and I also support Fiji
-                      in 7's rugby.</p>
+                    <p style="background-color: black;">I enjoy watching rugby.I am a Springbok and Blitzbok supporter.
+                    </p>
                   </div>
                 </div>
+
+                <div class="carousel-item">
+                  <img src="images/fijirugby.jpg" class="d-block w-100" alt="FijiRugby">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Rugby</h5>
+                    <p style="background-color: black;">I am also a Fiji supporter in 7's rugby.</p>
+                  </div>
+                </div>
+
                 <div class="carousel-item">
                   <img src="images/soccer.jpg" class="d-block w-100" alt="Soccer">
                   <div class="carousel-caption d-none d-md-block">
                     <h5>Soccer</h5>
-                    <p style="background-color: black;">My favourite team is Manchester United</p>
+                    <p style="background-color: black;">My favourite soccer team is Manchester United</p>
                   </div>
                 </div>
+
+                <div class="carousel-item">
+                  <img src="images/writing.jpg" class="d-block w-100" alt="Writing">
+                  <div class="carousel-caption d-none d-md-block">
+                    <h5>Creative Writing</h5>
+                    <p style="background-color: black;">I enjoy writing and creating my own storyline</p>
+                  </div>
+                </div>
+
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselCaptions"
                   data-bs-slide="prev">
                   <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -206,7 +256,8 @@
 
         <!-- Button trigger modal -->
 
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          style="background-color: rgba(0, 0, 0, 0.338);">
           Like Resume?
         </button>
 
@@ -223,8 +274,8 @@
                 Thank You for your opinion
               </div>
               <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                <button type="button" class="btn btn-primary">Yes</button>
               </div>
             </div>
           </div>
@@ -233,7 +284,7 @@
   </main>
 
   <!--Footer-->
-  
+
   <footer>
 
     <div class="containers">
